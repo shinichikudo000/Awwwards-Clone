@@ -61,7 +61,7 @@ export default function HeroSection() {
                 </div>
             </div>
             <div className="w-full flex justify-center items-center z-10 relative">
-                <div className="w-[42.7%] min-w-[69vh] max-w-[700px] bg-white px-4 pb-4 pt-20">
+                <div className="w-[42.7%] min-w-[69vh] max-w-[700px] bg-white px-4 pb-4 pt-20 z-40">
                     <div className="w-3/4 h-full mx-auto flex flex-col text-center gap-20">
                         <p className="text-4xl">In hac habitasse platea dictumst</p>
                         <p className="text-5xl font-bold">SED VITAE IPSUM SAPIEN. SUSPENDISSE POTENTI</p>
@@ -69,6 +69,9 @@ export default function HeroSection() {
                         <p className="text-2xl font-bold">PROIN VIVERRA DIGNISSM PURUS, UT FERMENTUM ELIT SOLLICITUDIN SED</p>
                         <p className="text-6xl font-bold">(E)</p>
                     </div>
+                </div>
+                <div className="bg-gradient-to-t from-[#121212] to-[#12121200] w-[100vw] h-[70vh] absolute top-[70vh] left-0">
+
                 </div>
             </div>
         </section>
